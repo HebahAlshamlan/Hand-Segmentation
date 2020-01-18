@@ -1,4 +1,4 @@
-# Hand-Segmentation-
+# Hand-Segmentation
 Hand Segmentation Using Deep Learning For Arabic Sign Language
 
 <br />**Problem statement** <br />
@@ -27,7 +27,7 @@ relation between the two and consequently will be able to segment new hand image
 This is be achieved by the following steps: 
 
 <br />**Training**<br />
-1- <br />Loading the input and labels files.<br />
+ <br />1- Loading the input and labels files.<br />
 2- Create two classes for the classification step, namely, Background and Hand.<br />
 3- Split the data into 60% training, 20% validation, and 20% testing. <br />
 4- Load the ResNet-18 model. <br />
