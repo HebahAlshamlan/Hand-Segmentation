@@ -50,6 +50,8 @@ This will stop training early when the validation accuracy converges. Thus, it p
     1- Load the pretrained model. <br />
     2- Choose one image from the test set and pass it to the pretrained model. <br />
     3- Compare the predicted output with the expected output. The white spaces indicates correct segmentation. Whereas the green highlights is the mismatch spaces.<br />
+
+
 **Evaluation** <br />
     The model can be evaluated using the predefined ```evaluateSemanticSegmentation```
 function that will show the model accuracy, IoU and MeanBFScore for each class. 
